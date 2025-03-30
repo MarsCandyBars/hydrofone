@@ -1,0 +1,26 @@
+
+<div class="flex flex-col items-center justify-center h-screen">
+  <h1 id="grabFont" class="font-mono text-6xl text-[#f265b5]">~ Hydrofone ~</h1>
+  <div class="grid grid-cols-1 md:grid-cols-2 m-4 mt-0 p-4 w-full max-w-2xl font-mono">
+
+    <div class="flex flex-col border border-black m-4 p-2 rounded shadow-[8px_8px_0px] bg-[#323449]">
+      <h1 class="text-xl font-bold text-[#ebfafa] pt-0 pl-0 p-4">White</h1>
+      <button (click)="playWhiteNoise()" class="border border-black py-2 px-4 ml-0 m-2 text-[#212337] bg-[#7081d0] rounded active:translate-x-1 active:bg-[#7c89c7] active:translate-y-1 active:shadow-none duration-100 shadow-black shadow-[6px_6px_0px]">Play</button>
+    </div>
+
+    <div class="flex flex-col border border-black m-4 p-2 rounded shadow-[8px_8px_0px] bg-[#323449]">
+      <h1 class="text-xl font-bold text-[#f7c67f] pt-0 pl-0 p-4">Brown</h1>
+      <button (click)="playBrownNoise()" class="border border-black py-2 px-4 ml-0 m-2 text-[#212337] bg-[#7081d0] rounded active:translate-x-1 active:bg-[#7c89c7] active:translate-y-1 active:shadow-none duration-100 shadow-black shadow-[6px_6px_0px]">Play</button>
+    </div>
+
+    <div class="flex flex-col border border-black m-4 p-2 rounded shadow-[8px_8px_0px] bg-[#323449]">
+      <h1 class="text-xl font-bold text-[#f265b5] pt-0 pl-0 p-4">Pink</h1>
+      <button (click)="playPinkNoise()" class="border border-black py-2 px-4 ml-0 m-2 text-[#212337] bg-[#7081d0] rounded active:translate-x-1 active:bg-[#7c89c7] active:translate-y-1 active:shadow-none duration-100 shadow-black shadow-[6px_6px_0px]">Play</button>
+    </div>
+
+    <div class="flex flex-col border border-black m-4 p-2 rounded shadow-[8px_8px_0px] bg-[#323449]">
+      <h1 class="text-xl font-bold text-[#37f499] pt-0 pl-0 p-4">Oscillator</h1>
+      <button (click)="playOsciNoise()" class="border border-black py-2 px-4 ml-0 m-2 text-[#212337] bg-[#7081d0] rounded active:translate-x-1 active:bg-[#7c89c7] active:translate-y-1 active:shadow-none duration-100 shadow-black shadow-[6px_6px_0px]">Play</button>
+    </div>
+  </div>
+</div>
