@@ -23,5 +23,5 @@ Build and run:
 
 ```sh
 docker build https://github.com/MarsCandyBars/hydrofone.git -t hydrofone
-docker run --rm -d -p 8080:80 hydrophone
+docker run --rm -d -p 8080:80 hydrofone
 ```
