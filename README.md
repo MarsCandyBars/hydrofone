@@ -13,5 +13,5 @@ A simple background noise app
 ```sh
 1. Clone the repo
 2. cd into the directory
-3. Run npm ci
+3. Run npm install
 4. Run ng serve -o
