@@ -2,3 +2,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Texturina';
+    src: url('assets/fonts/Texturina_18pt-Light.ttf') format('truetype');
+}
+
+#grabFont {
+    font-family: 'Texturina', serif;
+}
