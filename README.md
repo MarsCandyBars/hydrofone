@@ -1,4 +1,5 @@
 # Hydrofone
+![Screenshot](src/assets/pictures/hydrofone.png)
 
 ## Description
 A simple background noise app
